@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 
 int main()
 {
@@ -20,16 +20,17 @@ int main()
         std::cout << "Your age group is 30+\n";
     }
 
-    std::cout << "Whats your name? :";
+    std::cout << "What's your name? : ";
     std::cin >> name;
 
     std::cout << "You are " << age << " years old\n";
     std::cout << "Your name is " << name << "\n";
     std::cout << "App created by Piotruxon (v1.665)\n";
 
+    // Keeps the console window open until the user presses ENTER
     std::cout << "Press ENTER to close the app...\n";
-    std::cin.ignore();
-    std::cin.get();   
+    std::cin.ignore(); 
+    std::cin.get();    
 
     return 0;
 }
