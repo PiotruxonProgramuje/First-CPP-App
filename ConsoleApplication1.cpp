@@ -28,8 +28,8 @@ int main()
     std::cout << "App created by Piotruxon (v1.665)\n";
 
     std::cout << "Press ENTER to close the app...\n";
-    std::cin.ignore(); // Ignoruje pozostałe dane w buforze
-    std::cin.get();    // Czeka na wciśnięcie Enter
+    std::cin.ignore();
+    std::cin.get();   
 
     return 0;
 }
